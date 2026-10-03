@@ -1,0 +1,72 @@
+{
+    "_comment": "Pelican/Pterodactyl egg for ShreddedPaper (multi-threaded Purpur fork) - https://github.com/MultiPaper/ShreddedPaper",
+    "meta": {
+        "version": "PTDL_v2",
+        "update_url": null
+    },
+    "exported_at": "2026-10-03T22:15:00+02:00",
+    "name": "ShreddedPaper",
+    "author": "contact@hiorcraft.dev",
+    "description": "ShreddedPaper is an open-source, multi-threaded server software designed for Minecraft and built on top of Purpur. By letting multiple threads work together on a single world, ShreddedPaper aims to bring vertical scaling to Minecraft and run more players on a single server. Plugins with Folia support will most likely work out of the box.",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAPgklEQVR4Xu2dWUxd1xWG4yTOnCpPUaJEalSpVdVKTSP1pVKj1orSKg9VpUpW1artQx9c5SEPTVwpSqX4qjVgsA0x4AGwYwPGZjJcGy44HnI9AAZsY2wDBsxoMxkz2CbBjonZXf/F2zmsvfcdmC9n/9InS+B77jlr/WcPa+9zeOwxKysrKysrKysrKysrKyt3Ky0tbeVM8Pv9T/JjWUWZ8vPznzp48OCqSDlw4MCqwsLCX/DjWUWXVlAiXy0qKhIzYJKo5Qe0ii5ZA7hc1gAulzWAy2UN4HJZA7hAK2ja9iISraOkpOTN0tJSYeJQSYk4dOiQjkk67gV+PAlNL1/BFJOfjNUCC8UaulP/QRzR4fP5Tra2XhU6WlpaRf3Fi+LcuXMKZ8+eFVVVVbf58SRkgsOFhYU/4+djtcDCXUgJiSlSm/AAuMtvDN400t7RIZqamrTU1dUpx3MwQfyan4/VAssawOWyBnC5rAFcLmuAZSKPx/MkJfPZSCkrK/seJSKhuLhYcLxer6BZgBi8eVMLDNDR2SGuXLmipb7+QuAYOmiKOEG8y8/HgZ0ihitK/uM0pfohBfYvkULJ//vhw4e9x44dEzpOnjwpbt0eMTAsBgZ6RU9Pl5b29lZx+vRpEw/Ky8v/x88H0BQR/77Nr9PKIJp3r6Q79n1NMxsS3OlICG++JS0tLeLbb+/MiHvf3Fa6DMnAjUFx/Phx5XwegiriAX6dVgZZA7hc1gAulzWAy2UN4HJZA7hAQogVFJSXaX78Gofm6t8nPuZLtU7KynxaysvLRE1NtWhtbdHS3t6mJDZcYICbQ0NaUEc4ceIEX0J+tJRMxixbv379ayboup/gMVrWysrKep6CUkwmaOTQj5sqKiv7Oru6hY6u7mtiZKRfjI7qGRsbFOPjI0Z4YsNlYuKO+IZMoAPmaG1tFvX19QoXLlwQR48evRMXF9dooAEm4DFa1sKmDUr2JU1zGWjGq86cUZpZCe42JIMnaDHB+XR1tStdjgRFKEq0iQfEGzxGy1rWANYA1gDWANYA1gDWAFFtgBUPlzpfiBSa5r3i9XobvPqlVXGmulpZrpVg2rUUDdDd3SGam68oYCn5yy+/FPHx8SYebNq06Scej+cFHcnJyU/zwC8J5U9tvvgj3bEfRQrNjT/x+/19mDtzsGTb0HBZ3L4zouXO2OiSMwAYGuoX/f3XtdTVnRVpaWkmJhMSEmKoFfhIBxlkFY/9ktDD/fc+3oSHA+50zI95Uwlwx/T2XlMCHM1cv96mxMAJtQC8W3jEhg0bknjsl4SsAcLHGoBhDTAdawBrACXx1gCaQEYr1gAMa4DpLFkDYG2ekvy6jsLCwh/TdO64ZvkzQElJiSj1+bSUlZcHpnp8uRZcvdoqBgZ6lCBGM729HUp8nHz22Wdi48aNWsgcGTQVfN0Ez9mcSQjxeG5u7pvkUDwVq0B38Z2ampqJhoYGwWlsbAxsvujt69fS3z8gxu+Oivv3b2mZmLitBDGaGR0dUGLkBMUvuqG07Nq16xtqCW6b4HmbM2GTAp3YW7y5kqAZx2PTvAmXtLW1KWVcZzkXa+g8UMuVW7duKPFxgtaSx1dCBlC6BSc8b3Mma4C5wxrAGkCJjzWANYA1AA/UcmUpG2CF3+9/Bk/VcoqLi1+iJL8tl2k5mL7g/Tn8KdopmkV7e7uylOtc0nWbAdQYfUeIWcC3cZrRv4QnNCJRop8ml60mEjk0108qLS3NrqioEDqqqqpEM031uruvaenr7xNffTVq5P599xhgbGxYiY8Eu5wzMzP5EvEjUlJSejZs2PChCZ7TiITNGXSnp/FmR0IGUZorCZx7vadHad4lo7eGlUC4lfHxW0p8JHioJCUlVWnaJZTkOp63OZM1wMJgDeByrAFczmwMsGnTpl4ywccmeE4jkjXAwjAbA2zZsmWS/r1rguc0IsEAlOgdxAMdZIBJLOzoaLIGCBsYAIk2EcIAys+c8JxGpJKSkudouuehZDfpoGlgT01NjdCBIlBHRydN9wa0DA3dVB6idMKDFA3wa3By9+4oJXpYy/DwgGjB+4h1tLSK7du3i8TERC00DVSSPmcGCCaPx/NURkbGn/kXSrBW7ff7la5BstwqgcHeDwCuXr2qxEAS7MEQ6seVrtfJfFcCjbIGmI41AMMaYBkYAAs+9CU/Kigo+I2Gd7Kzs//Lv1BiDTB3Bti/f7/IyclR2Lt3L8rBY/T/TpjgOY1IZIBnyQAfEn4ODQ5P0u/xBgvlpIE1wNwZADV/jPZ10ECwNSYmZpUJntOIFKwOQAYIwE/YGkDPbAyQnJys/Nzx+8WrBAJsWdaBnax4M9bFixcVLl26JJqbm5X5ruTG4KC4ew+bP6eerNXBE7AQ8HNwgk2s13t6jSDRPA6So0ePKtM7yWYiOdk81Vs0A+Dux0YFnLwJrFdnZWUp0Ngh8DavtvZ2LXgt+9AwikUjCnhx89dfjyrJWQiwTM3PZ4ph0dXdKXJz84xkU3/N4yA5eNArqqtrjAQzwObNm/vo33UmeE4jUjADgGCl4MuXLwcujp8wQLO2e/du5TMSlJGxPZw3oxI8Bs6TsxDAfPxcAlCr1djYpFxnuBQU5KnHfEgYlcD5LQVbA3zHEjWA8jMnPKcR6eFaQCpxVwcZ4D5/iEGCvs0aIDzy8/OUUrkEcUhN3RqImY75NsBT1AK8R/39Jxzq3z+l3+XJ2YAOU5HCGmA6mZl7Ao/DmdizZ4/YuXOnFqwT8OM54TmdM4VTCTSdnDXAdHbs2KH8TIJY8a7Xiekmk/C8zZnCMQAujDdZID4+PuBqvoT8aCmZTBDMAEgET85cgecOTYyMDon+gRtaGhoa+cudpsFj4IwFCj08fpJFNQBKwXjKl5r6dzh5eXm/oz5+Pf9CCQyA3ay8yZLk5uYGXvikA2/0xlJyT2+vhj4xNDRVJ9ATvIAUWJpVPjPF+PioGB7u1TI01CtajO/7rRdnqs/Q9WYZ+fzzz5UYSBAnHj8JDIBSMMq+Osg81+j/HTfBcxqRUAr2er1rKeGnONTHVxQUFFzhJywJVgnEXY4k8884P1tdXa18TtLR2am0ChJUEYMVisbGRpXPSPr6+hQzSvCGMiSLn6tk9+5dyvGczKYSaCoFo9iWlJSUHxsb+7YJntOIFGwaOJtSsDVAZAYIUQqevxdEWANYAxgNAPAIGEbzOtCvYQqDt2Dq8JWVKRcjiUYD7NyZIc6eO2/k5KlTSgwk5RSnvVje1ZCTsy9oKXhRDYB6Ph4B01FZWSn200APU0EOZgeYBfCLkUSjAdBPp6dnGNlO18zjICkuPiAam67ooellsErgohpgNqXgYHPfaDSAqeYRDrMpBc+7ASjRqdTX3+UUTZWC7yHROupDlIJhACRaB0a3aEH4sqmklfpTvoT8aCmZwA7ce/f0DA8PKku1U/SIzs6uwBK2DvTT6No2b96skJiYFNQcoQhVCk5JSbkXp1nooTiO078JPG9zJpSCKdHvEms1/JuMkERTQaGnMGhQUMDQ/I3dR2RlZytPwoKMjIxA14NBlY7W1laal58nzingpcw+X2lgTq4D57R161Yt27Zto1bALy5dblC4TKDF4tcYLigFl5b6TEzSIDCGkr2WQ9O8tbPe9TNTrV69+gk6+bf4xUhwJ5uaRbQAuJt40+7sPtBn8s8BVM5QROKfkWCGcYoGXLwJl8049iLwY4YDvremtlppogPMYyk4bqn+vQBrAGuAoAZISEgINNd8i5ME4wO8DVQH3ixiMs9iGqCi8nTghQ0KXd00NrkUGLuYSEpKUmIgQZz49zmITgOgBcBMwefzKcg/8JiXl2cE/S4/JlgsA6DVKijID7yuReWQ8JX5xAl8h4HDhw8rcZCxCFZQi4tmA8ymEmiqfi2mAVJTzdOx+aoExrnVAGgB0I3ogAH4DiQJxg/8z8xIUHWDAfjxnPBlXCfWAA55PJ7H6cR+QBTpoCQeouaxn8+nJWj+NBcbAAbYt2+fsvQpKS4uFl988YUWNLVoUvnbtCRFRQcCU1QdNO1VlmolmCKaxiUApeDa2rNGYEAeA1lf8Hq9vTx+DgrXrVv3Mo//khANYJ6lpvFNHZTEX9JdfArzZw4COdNSMFoPbDnnnwkH3MV+/3Hl7pTMphI4VadIN5AmttE18zg8ZJLidIzHzwk23/DYL3lRsF+kwPh4oAD602BTn2g0QLDWIQSTFI/l9+fjrQHCxn0GAOnp6YEBmQ48+YqFpiNHjmjBGIAfLxzi4zdQf4u/PFqt4YyoqKhUdjZPp1Dk0TiBk59fEJjy8u8LE3caALV3vEZGR21tbeD3mApy8EoUVBH58cIBLQ+KLhjNm0DBRge2YFVUnBZt7R0qbe3i/Pk65fvCxH0GQCJmUwoOUTkzgu81FZhCge+dp1Lw8jQAjVxfoAvLpgvs51Aw+8kAI3V1dUJHqFIwDMCfRnYil5U5WLrFyJsfMxzwvYFScFe3Qidx4UL9/TjNtYaCYoT3/O3k8Yt60dRnZUxMzHt0cf/U8D4NAlOx3VkHCj14HCpOkwjcxagRnD9/XgvMg0EiHzcA1AmCbcEOBr4X6/YYf6h4JwsLCzs11xkSOvYa4rc8fsta1Do8SRf/ex5kSRSWgvGEbi2/TiuDrAFcrnAMgH6ezwDkLAAlW8wUTMjmnoMyMboYvttHEmwWgCXdIOMHa4BIFI4BsFbAEyjBEipfH3CCuj2v5ct6PraEVWLXsgYsUPG1AydBnuGzBohE4RggyiqB1gCRyBrA5cJeApoi/pyCtkcHzeX3lpSUjPCmX/bjRTMsBWMgV1xcJCor8eDKdCoqK2nwaO4CCgoKHtDU9ZTzPB3spmN/yq/TyqwV1Ao8R4F7Q0diYuJPt2zZcoU/DQswEESZmCc3HGCAjIx0pfwLMLgEfPAnoXOaIP7lPE8n9H9e5RdpNUM9LCNf4gkEi1UKJu7Hxsb+jZ+r1TzIGsDlCmUALCTx8rEEZWL8nj/1I5mpeeKsARZOoQyARPPnBSV4ZQs2f/K9d3L/nel5xTCwBlgohTLAYpSC46wBFk4bN258ngJ+kGjmkAGac3JyBnj5V4K/VySnixomMzMzB/kxw+QyjSH+wM/Vah60Zs2alRTs9yjoeA3dNMgcf01PT9/FX7jsBAUb9PUaJmgQmMePGSZ/iluK+/PdJuwzIHO8H6c20eGATRv/4ce0iiJZA7hc1gAulzWAy2UN4HJZA7hceIE1GeBXsbGxyZFCn0uKc9sO3OWoDz744OmkpKSXZoLH43mGH8/KysrKysrKysrKysod+j+XOKWzl70h2QAAAABJRU5ErkJggg==",
+    "features": [
+        "eula",
+        "java_version",
+        "pid_limit"
+    ],
+    "docker_images": {
+        "Java 25": "ghcr.io/pelican-eggs/yolks:java_25",
+        "Java 21": "ghcr.io/pelican-eggs/yolks:java_21",
+        "Java 17": "ghcr.io/pelican-eggs/yolks:java_17",
+        "Java 16": "ghcr.io/pelican-eggs/yolks:java_16",
+        "Java 11": "ghcr.io/pelican-eggs/yolks:java_11",
+        "Java 8": "ghcr.io/pelican-eggs/yolks:java_8"
+    },
+    "file_denylist": [],
+    "startup": "java -Xms128M -XX:MaxRAMPercentage=95.0 -Dterminal.jline=false -Dterminal.ansi=true -jar {{SERVER_JARFILE}}",
+    "config": {
+        "files": "{\n    \"server.properties\": {\n        \"parser\": \"properties\",\n        \"find\": {\n            \"server-ip\": \"0.0.0.0\",\n            \"server-port\": \"{{server.allocations.default.port}}\",\n            \"query.port\": \"{{server.allocations.default.port}}\"\n        }\n    }\n}",
+        "startup": "{\n    \"done\": \")! For help, type \"\n}",
+        "logs": "{}",
+        "stop": "stop"
+    },
+    "scripts": {
+        "installation": {
+            "script": "#!/bin/bash\n# ShreddedPaper installation script for Pelican\n# Server files are located in /mnt/server\n\nPROJECT=shreddedpaper\nAPI_URL=\"https://api.multipaper.io/v2/projects/${PROJECT}\"\n\nif ! command -v jq > /dev/null 2>&1 || ! command -v curl > /dev/null 2>&1; then\n  apt update && apt install -y curl jq\nfi\n\nmkdir -p /mnt/server\ncd /mnt/server || exit 1\n\n# Resolve Minecraft version\nif [ -z \"${MINECRAFT_VERSION}\" ] || [ \"${MINECRAFT_VERSION}\" == \"latest\" ]; then\n  MINECRAFT_VERSION=$(curl -fsSL \"${API_URL}\" | jq -r '.versions[-1] // empty' 2>/dev/null)\n  if [ -z \"${MINECRAFT_VERSION}\" ]; then\n    echo \"ERROR: Could not reach the ShreddedPaper API (${API_URL}).\"\n    exit 1\n  fi\n  echo \"Latest Minecraft version: ${MINECRAFT_VERSION}\"\nfi\n\nVERSION_INFO=$(curl -fsSL \"${API_URL}/versions/${MINECRAFT_VERSION}\")\nBUILD_COUNT=$(echo \"${VERSION_INFO}\" | jq -r '.builds | length' 2>/dev/null)\nif [ -z \"${BUILD_COUNT}\" ] || [ \"${BUILD_COUNT}\" == \"0\" ]; then\n  echo \"ERROR: Version ${MINECRAFT_VERSION} was not found for ShreddedPaper.\"\n  echo \"Available versions:\"\n  curl -fsSL \"${API_URL}\" | jq -r '.versions[]'\n  exit 1\nfi\n\n# Resolve build\nif [ -z \"${BUILD_NUMBER}\" ] || [ \"${BUILD_NUMBER}\" == \"latest\" ]; then\n  BUILD_NUMBER=$(echo \"${VERSION_INFO}\" | jq -r '.builds[-1]')\n  echo \"Latest build: ${BUILD_NUMBER}\"\nfi\n\nBUILD_INFO=$(curl -fsSL \"${API_URL}/versions/${MINECRAFT_VERSION}/builds/${BUILD_NUMBER}\")\nJAR_NAME=$(echo \"${BUILD_INFO}\" | jq -r '.downloads.application.name // empty' 2>/dev/null)\nJAR_SHA256=$(echo \"${BUILD_INFO}\" | jq -r '.downloads.application.sha256 // empty' 2>/dev/null)\n\nif [ -z \"${JAR_NAME}\" ]; then\n  echo \"ERROR: Build ${BUILD_NUMBER} was not found for ShreddedPaper ${MINECRAFT_VERSION}.\"\n  echo \"Available builds: $(echo \"${VERSION_INFO}\" | jq -r '.builds | map(tostring) | join(\", \")')\"\n  exit 1\nfi\n\nDOWNLOAD_URL=\"${API_URL}/versions/${MINECRAFT_VERSION}/builds/${BUILD_NUMBER}/downloads/${JAR_NAME}\"\necho \"Downloading: ${DOWNLOAD_URL}\"\n\n# Download to a temporary file first, so an existing jar is only replaced after a successful download\nif ! curl -fL -o \"${SERVER_JARFILE}.download\" \"${DOWNLOAD_URL}\"; then\n  echo \"ERROR: Download failed.\"\n  rm -f \"${SERVER_JARFILE}.download\"\n  exit 1\nfi\n\n# Verify checksum\nif [ -n \"${JAR_SHA256}\" ]; then\n  if echo \"${JAR_SHA256}  ${SERVER_JARFILE}.download\" | sha256sum -c --status -; then\n    echo \"Checksum verified.\"\n  else\n    echo \"ERROR: Checksum mismatch, the downloaded file is corrupted.\"\n    rm -f \"${SERVER_JARFILE}.download\"\n    exit 1\n  fi\nfi\n\nmv -f \"${SERVER_JARFILE}.download\" \"${SERVER_JARFILE}\"\n\nif [ ! -f server.properties ]; then\n  echo \"server-port=25565\" > server.properties\nfi\n\necho \"ShreddedPaper ${MINECRAFT_VERSION} build ${BUILD_NUMBER} has been installed.\"\n",
+            "container": "ghcr.io/pelican-eggs/installers:debian",
+            "entrypoint": "bash"
+        }
+    },
+    "variables": [
+        {
+            "name": "Minecraft Version",
+            "description": "The ShreddedPaper Minecraft version to install, e.g. 26.2 or 1.21.11. Use 'latest' for the newest version.",
+            "env_variable": "MINECRAFT_VERSION",
+            "default_value": "latest",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "nullable|string|max:20",
+            "field_type": "text"
+        },
+        {
+            "name": "Build Number",
+            "description": "The ShreddedPaper build number to install. Use 'latest' for the newest build.",
+            "env_variable": "BUILD_NUMBER",
+            "default_value": "latest",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "required|string|max:20",
+            "field_type": "text"
+        },
+        {
+            "name": "Server Jar File",
+            "description": "The name of the server jar file.",
+            "env_variable": "SERVER_JARFILE",
+            "default_value": "server.jar",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "required|regex:/^([\\w\\d._-]+)(\\.jar)$/",
+            "field_type": "text"
+        }
+    ]
+}
